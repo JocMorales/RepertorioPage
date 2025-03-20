@@ -24,7 +24,7 @@
   }
 
   .text-Title{
-    color: rgb(55, 95, 114);
+    color: rgb(102, 102, 102);
   }
 
 
@@ -39,4 +39,21 @@
   .song-card:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .hidden-content{
+    display: none;
+  }
+
+  /* Estilos personalizados para el botón */
+  .custom-button {
+    background-color: #2e4e74; /* Color de fondo azul */
+    color: white; /* Texto blanco */
+    padding: 0.75rem 1.5rem; /* Espaciado interno */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    font-weight: 600; /* Texto en negrita */
+    transition: background-color 0.3s ease; /* Transición suave */
+  }
+  .custom-button:hover {
+    background-color: #686868; /* Cambia el color al pasar el mouse */
   }
