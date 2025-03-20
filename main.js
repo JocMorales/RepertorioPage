@@ -85,3 +85,11 @@ fetch("data.json")
       });
     });
 
+
+    //loader
+
+    window.addEventListener("load", () => {
+      document.getElementById("loaderContainer").style.display = "none";
+      // Mostrar el contenido de la página
+      document.getElementById("content").style.display = "block";
+    });
